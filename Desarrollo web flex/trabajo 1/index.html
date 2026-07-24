@@ -1,92 +1,95 @@
 <!doctype html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FindAGem</title>
-  </head>
 
-  <body>
-    <header>
-      <p>FindAGem</p>
-      <nav>
-        <ul>
-          <li><a href="index.html">Inicio</a></li>
-          <li><a href="pages/sobre-mi.html">Sobre mí</a></li>
-          <li><a href="pages/proyectos.html">Proyectos</a></li>
-          <li><a href="pages/servicios.html">Servicios</a></li>
-          <li><a href="pages/contacto.html">Contacto</a></li>
-        </ul>
-      </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FindAGem</title>
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
 
-    </header>
+<body>
+  <header class="encabezado">
+    <a class="logo" href="index.html">FindAGem</a>
+    <nav class="navegacion">
+      <ul class="navegacion_lista">
+        <li class="navegacion_item"><a class="navegacion_enlace" href="index.html">Inicio</a></li>
+        <li class="navegacion_item"><a class="navegacion_enlace" href="pages/sobre-mi.html">Sobre mí</a></li>
+        <li class="navegacion_item"><a class="navegacion_enlace" href="pages/proyectos.html">Proyectos</a></li>
+        <li class="navegacion_item"><a class="navegacion_enlace" href="pages/servicios.html">Servicios</a></li>
+        <li class="navegacion_item"><a class="navegacion_enlace" href="pages/contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
 
-    <main>
-      <section>
-        <h1>Compra y vende partes de instrumentos vintage</h1>
-      </section>
+  </header>
 
-      <section>
-        <h2>Biografia</h2>
-        <p>
-          Mi nombre es fabrizio, estoy aprendiendo programacion y este html es
-          un proyecto de prueba para aprender a crear paginas web. La tematica
-          que elegi es la compra y venta de partes de instrumentos vintage.
-        </p>
-      </section>
+  <main class="contenido">
+    <section class="seccion">
+      <h1 class="titulo_principal">Compra y vende partes de instrumentos vintage</h1>
+    </section>
 
-      <section>
-        <h2>Pickguard fire 57</h2>
-        <figure>
-          <img src="img/pick1.jpeg" alt="Pickguard fire 57" width="300" />
-          <figcaption>Pickguard fire 57, $150</figcaption>
-        </figure>
-      </section>
+    <section class="seccion">
+      <h2 class="titulo_secundario">Biografía</h2>
+      <p class="texto">
+        Mi nombre es fabrizio, estoy aprendiendo programacion y este html es
+        un proyecto de prueba para aprender a crear paginas web. La tematica
+        que elegi es la compra y venta de partes de instrumentos vintage.
+      </p>
+    </section>
 
-      <section>
-        <h2>Tambien ofrecemos</h2>
-        <ul>
-          <li>Servicios de reparacion</li>
-          <li>Tasaciones</li>
-          <li>Service</li>
-        </ul>
-      </section>
+    <section class="seccion">
+      <h2 class="titulo_secundario">Pickguard Fire 57</h2>
+      <figure class="figura">
+        <img class="imagen" src="img/pick1.jpeg" alt="Pickguard Fire 57" />
+        <figcaption class="descripcion_imagen">Pickguard Fire 57, $150</figcaption>
+      </figure>
+    </section>
 
-      <section>
-        <h2>Clientes</h2>
+    <section class="seccion">
+      <h2 class="titulo_secundario">También ofrecemos</h2>
+      <ul class="lista_servicios">
+        <li class="lista_servicios_item">Servicios de reparacion</li>
+        <li class="lista_servicios_item">Tasaciones</li>
+        <li class="lista_servicios_item">Service</li>
+      </ul>
+    </section>
 
-        <article>
-          <h3>Marcos sanders</h3>
-          <p>Todo llego en buen estado</p>
-        </article>
+    <section class="seccion">
+      <h2 class="titulo_secundario">Clientes</h2>
 
-        <article>
-          <h3>Pibe 2</h3>
-          <p>Productos originales</p>
-        </article>
-      </section>
-    </main>
+      <article class="tarjeta">
+        <h3 class="tarjeta_titulo">Marcos Sanders</h3>
+        <p class="tarjeta_texto">Todo llego en buen estado.</p>
+      </article>
 
-    <footer>
-      <section>
-        <h2>Redes sociales</h2>
-        <ul>
-          <li><a href="https://x.com" target="_blank">X</a></li>
-          <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
-          <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
-        </ul>
-      </section>
+      <article class="tarjeta">
+        <h3 class="tarjeta_titulo">Lucas Fernandez</h3>
+        <p class="tarjeta_texto">Los productos son originales.</p>
+      </article>
+    </section>
+  </main>
 
-      <section>
-        <h2>Otros</h2>
-        <ul>
-          <li>empleos</li>
-          <li>terminos y condiciones</li>
-        </ul>
-      </section>
+  <footer class="pie_pagina">
+    <section>
+      <h2>Redes sociales</h2>
+      <ul class="pie_lista">
+        <li><a class="pie_enlace" href="https://x.com" target="_blank">X</a></li>
+        <li><a class="pie_enlace" href="https://facebook.com" target="_blank">Facebook</a></li>
+        <li><a class="pie_enlace" href="https://instagram.com" target="_blank">Instagram</a></li>
+      </ul>
+    </section>
 
-      <p>&copy; 2024 FindAGem. Todos los derechos reservados.</p>
-      <p>Marco Polo 3210 - tel: 123456789</p>
-    </footer>
-  </body>
+    <section>
+      <h2>Otros</h2>
+      <ul class="pie_lista">
+        <li>empleos</li>
+        <li>terminos y condiciones</li>
+      </ul>
+    </section>
+
+    <p>&copy; 2024 FindAGem. Todos los derechos reservados.</p>
+    <p>Marco Polo 3210 - tel: 123456789</p>
+  </footer>
+</body>
+
 </html>
